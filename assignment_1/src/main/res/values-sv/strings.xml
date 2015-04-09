@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="quotes">
+    <item>Rosebud</item>
+    <item>Du kommer att behöva en större båt</item>
+    <item>Ta bort dina stinkande tassar ifrån mig, din förbannade smutsiga apa</item>
+    </string-array>
+</resources>

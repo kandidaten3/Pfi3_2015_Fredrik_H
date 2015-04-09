@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="quotes">
+    <item>Rosebud</item>
+    <item>Youre gonna need a bigger boat</item>
+    <item>Get your stinking paws off me, you damned dirty ape</item>
+    </string-array>
+</resources>
