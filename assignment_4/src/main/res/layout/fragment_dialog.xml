@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kandidaten3.assignment_4.FragmentDialog">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Fredrik Hallin"
+        android:id="@+id/tv_dialog_title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_dialog"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="52dp"
+        android:src="@drawable/profile" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/iv_dialog"
+        android:paddingTop="32dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Presentation"
+            android:id="@+id/tv_dialog_description"
+            android:layout_below="@+id/iv_dialog"
+            android:layout_alignParentStart="true" />
+    </ScrollView>
+
+</FrameLayout>
